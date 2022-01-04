@@ -1,0 +1,37 @@
+{
+  "name": "express-lab-1---cart-api-with-array",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts",
+    "test": "jest",
+    "test:dev": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minimomo14/EXPRESS-LAB-1---CART-API-WITH-ARRAY.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minimomo14/EXPRESS-LAB-1---CART-API-WITH-ARRAY/issues"
+  },
+  "homepage": "https://github.com/minimomo14/EXPRESS-LAB-1---CART-API-WITH-ARRAY#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
